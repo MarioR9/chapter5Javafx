@@ -91,14 +91,14 @@ public class Main extends Application {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Information Dialog");
             alert.setHeaderText(null);
-            alert.setContentText("Computer Won!");
+            alert.setContentText("Computer Wins!");
             alert.showAndWait();
             System.exit(0);
         } else if (WinningScorePlayer == 2) {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Information Dialog");
             alert.setHeaderText(null);
-            alert.setContentText("Player One Won!");
+            alert.setContentText("Player One Wins!");
             alert.showAndWait();
             System.exit(0);
         }
